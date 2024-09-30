@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Status</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+        }
+        .banner {
+            background: url('your-image-path.jpg') no-repeat center center/cover;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 10px;
+            width: 90%;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .card i {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        footer {
+            margin-top: auto;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>INVENTORY STATUS</h1>
+</header>
+
+<div class="banner">
+    <p>Check the stock level</p>
+</div>
+
+<div class="container">
+    <div class="card">
+        <i class="fas fa-building"></i>
+        <p>Department</p>
+    </div>
+    <div class="card">
+        <i class="fas fa-tag"></i>
+        <p>Price</p>
+    </div>
+    <div class="card">
+        <i class="fas fa-box"></i>
+        <p>Order</p>
+    </div>
+    <div class="card">
+        <i class="fas fa-user"></i>
+        <p>User</p>
+    </div>
+    <div class="card">
+        <i class="fas fa-tasks"></i>
+        <p>Status</p>
+    </div>
+    <div class="card">
+        <i class="fas fa-cog"></i>
+        <p>Management</p>
+    </div>
+    <div class="card">
+        <i class="fas fa-desktop"></i>
+        <p>Interface</p>
+    </div>
+    <div class="card">
+        <i class="fas fa-file-alt"></i>
+        <p>Report</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Inventory Management System</p>
+</footer>
+
+</body>
+</html>
